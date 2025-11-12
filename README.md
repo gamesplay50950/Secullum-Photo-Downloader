@@ -10,17 +10,17 @@ This tool allows you to download photos from the Secullum Ponto Web system to im
 - Use a time interval to download the photos.
 > If you don't have the IDs or have a large number of employees, this might work well.
 
-#**How to use?**
+# How to use?
 
 The script needs information from your logged-in user's cookies to access the website and download the photos. The script needs the following information:
 
 ```
-Authorization
-User-Agent
-Referer
-Cookies
-Employee registration URL (if you don't know it, use URL_EMPLOYEE)
-URL of the location where the photos are stored (if you don't know it, use URL_BIO)
+- Authorization
+- User-Agent
+- Referer
+- Cookies
+- Employee registration URL (if you don't know it, use URL_EMPLOYEE)
+- URL of the location where the photos are stored (if you don't know it, use URL_BIO)
 ```
 
 - Run the code and enter the data mentioned above (if you don't know where to find it, in the employee's record open the browser's inspect menu, go to the Network tab and reload the page, click on any file in the list and look for the data mentioned).
